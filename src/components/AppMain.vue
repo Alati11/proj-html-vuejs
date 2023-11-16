@@ -1,7 +1,15 @@
 <script>
 
+import AppHero from './AppHero.vue';
+import SectionStudents from './SectionStudents.vue';
+
 
 export default {
+    components: {
+        AppHero,
+        SectionStudents,
+
+    },
    
     data() {
         return {
@@ -14,6 +22,10 @@ export default {
 </script>
 
 <template>
+    <div>
+        <AppHero />
+        <SectionStudents />
+    </div>
 
 </template>
 
