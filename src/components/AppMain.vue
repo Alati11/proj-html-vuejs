@@ -2,12 +2,14 @@
 
 import AppHero from './AppHero.vue';
 import SectionStudents from './SectionStudents.vue';
+import SectionCourses from './SectionCourses.vue';
 
 
 export default {
     components: {
         AppHero,
         SectionStudents,
+        SectionCourses,
 
     },
    
@@ -25,6 +27,7 @@ export default {
     <div>
         <AppHero />
         <SectionStudents />
+        <SectionCourses />
     </div>
 
 </template>
