@@ -52,21 +52,21 @@ export default {
             <div class="row">
                 <div class="col-3">
                     <div class="card-statistics">
-                        <figure class="img-counter1"><span>6500</span></figure>
-                        <p class="text-statistics ">Students</p>
+                        <figure class="img-counter1"><span class="counter bg-org">6500 +</span></figure>
+                        <p class="text-statistics">Students</p>
                     </div>  
                 </div>
                 
                 <div class="col-3">
                     <div class="card-statistics">
-                        <figure class="img-counter1">6500</figure>
-                        <p>Students</p>
+                        <figure class="img-counter2"><span class="counter bg-red">200 +</span></figure>
+                        <p class="text-statistics">Online courses</p>
                     </div>  
                 </div>
                 <div class="col-3">
                     <div class="card-statistics">
-                        <figure class="img-counter1">6500</figure>
-                        <p>Students</p>
+                        <figure class="img-counter3"><span class="counter bg-green">100 %</span></figure>
+                        <p class="text-statistics">Happy Clients</p>
                     </div>  
                 </div>
             </div>
@@ -147,10 +147,29 @@ a:hover {
     background-image: url('public/img/counter-shape-1-1-1.png');
     // margin-top: 30px;
     // width: 300px;
-    height: 60px;
-    width: 100px;
+    height: 69px;
+    width: 88px;
     aspect-ratio: 1 / 1;
 }
+
+.img-counter2 {
+    background-image: url('public/img/counter-shape-2-1-1.png');
+    // margin-top: 30px;
+    // width: 300px;
+    height: 69px;
+    width: 88px;
+    aspect-ratio: 1 / 1;
+}
+
+.img-counter3 {
+    background-image: url('public/img/counter-shape-3-1-1.png');
+    // margin-top: 30px;
+    // width: 300px;
+    height: 69px;
+    width: 88px;
+    aspect-ratio: 1 / 1;
+}
+
 
 .card-statistics {
     display: flex;
@@ -163,7 +182,32 @@ a:hover {
 }
 
 .text-statistics {
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.counter{
+    // color: #3ADC79;
+    font-weight:800;
+    // width: 150px;
+    height: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    
+}
+.bg-org {
+    color: #F28202;
+}
+
+.bg-red {
+    color: #D74D52;
+}
+
+.bg-green {
+    color:#3ADC79;
+}
 </style>
