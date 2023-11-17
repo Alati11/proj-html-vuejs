@@ -127,8 +127,7 @@ a:hover {
 }
 .img-counter1 {
     background-image: url('public/img/counter-shape-1-1-1.png');
-    // margin-top: 30px;
-    // width: 300px;
+    background-repeat: no-repeat;
     height: 69px;
     width: 88px;
     aspect-ratio: 1 / 1;
@@ -136,8 +135,7 @@ a:hover {
 
 .img-counter2 {
     background-image: url('public/img/counter-shape-2-1-1.png');
-    // margin-top: 30px;
-    // width: 300px;
+    background-repeat: no-repeat;
     height: 69px;
     width: 88px;
     aspect-ratio: 1 / 1;
@@ -145,8 +143,7 @@ a:hover {
 
 .img-counter3 {
     background-image: url('public/img/counter-shape-3-1-1.png');
-    // margin-top: 30px;
-    // width: 300px;
+    background-repeat: no-repeat;
     height: 69px;
     width: 88px;
     aspect-ratio: 1 / 1;
