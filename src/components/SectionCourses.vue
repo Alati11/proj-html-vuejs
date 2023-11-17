@@ -68,24 +68,22 @@ export default {
 
     <div class="container-sm">
         <div class="row">
-            <div class="col-12">
+            <div class="col">
                 <div class="bg-courses">
                     <p class="courses-info ">"Academics was commited to my success from the moment
                         I attended an Open House. With the support pf caring 
-                        <span>advisors, 
-                        professors, and staff
-                        </span> i was aable to thrive in courses, again recognition trough
+                        <span class="under-red">advisors, professors, and staff</span>
+                         i was aable to thrive in courses, again recognition trough
                         scholarships, and finish 
-                        <span>with confidence in my <span>@academics</span>abilities"</span>
+                        <span class="text-bold">with confidence in my </span>
+                        <span class="under-red">@academics</span>
+                        <span class="text-bold"> abilities"</span>
                     </p>
                 </div>
             </div>
         </div>
     </div>    
        
-       
-    
-
 </template>
 
 <style lang="scss" scoped>   
@@ -140,26 +138,27 @@ export default {
     background-image: url('public/img/quote.png');
     background-repeat: no-repeat;
     margin-top: 60px;
-    margin-left: 300px;
-    // position: relative;
+    margin-left: 650px
 }
 
 .courses-info  {
   font-size: 26px;
-  margin-top: -40px;
-  margin-left: -200px;
+  margin-left: -600px;
   margin-right: 20px;  
   padding: 40px;
   line-height: 1.8em;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #192836;
-  
-
+  width: 1100px;
 }
 
-// .content-courses-info {
-//     width: 800px;
-//     margin: 0 auto;
-// }
+.under-red {
+    color: #D74D52;
+    text-decoration: underline;
+    font-weight: 600;
+}
+ .text-bold {
+    font-weight: 600;
+ }
 </style>

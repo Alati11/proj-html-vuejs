@@ -3,6 +3,7 @@
 import AppHero from './AppHero.vue';
 import SectionStudents from './SectionStudents.vue';
 import SectionCourses from './SectionCourses.vue';
+import SectionEvents from './SectionEvents.vue'
 
 
 export default {
@@ -10,6 +11,7 @@ export default {
         AppHero,
         SectionStudents,
         SectionCourses,
+        SectionEvents,
 
     },
    
@@ -28,6 +30,7 @@ export default {
         <AppHero />
         <SectionStudents />
         <SectionCourses />
+        <SectionEvents />
     </div>
 
 </template>
