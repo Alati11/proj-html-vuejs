@@ -87,18 +87,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>   
-.coursers-text { 
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-}
-.card-courses {
-    width: 350px;
-    box-shadow: 5px 5px 5px 5px #dedede;  
-    text-align: left;  
-    margin-top: 30px; 
-}
 
 .card-coursers_text {
     padding: 22px;

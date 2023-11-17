@@ -27,10 +27,6 @@
     flex-basis: calc((100% / 12) * 3 );
 }
 
-.col-12 {
-  flex-basis: calc((100% / 12) * 12 );
-}
-
 .container-sm {
   width: 800px;
   // min-height: 400px;
@@ -40,7 +36,7 @@
 
 .student-text {
   font-size: 25px;
-  // margin-top: 50px;
+  margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;  
   padding: 35px;
@@ -56,5 +52,19 @@
   text-align: center;
   margin-bottom: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-courses {
+  width: 350px;
+  box-shadow: 5px 5px 5px 5px #dedede;  
+  text-align: left;  
+  margin-top: 30px; 
+}
+
+.coursers-text { 
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 

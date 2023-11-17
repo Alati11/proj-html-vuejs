@@ -4,6 +4,7 @@ import AppHero from './AppHero.vue';
 import SectionStudents from './SectionStudents.vue';
 import SectionCourses from './SectionCourses.vue';
 import SectionEvents from './SectionEvents.vue'
+import SectionBlogs from './SectionBlogs.vue';
 
 
 export default {
@@ -12,7 +13,7 @@ export default {
         SectionStudents,
         SectionCourses,
         SectionEvents,
-
+        SectionBlogs,
     },
    
     data() {
@@ -31,6 +32,7 @@ export default {
         <SectionStudents />
         <SectionCourses />
         <SectionEvents />
+        <SectionBlogs />
     </div>
 
 </template>
