@@ -77,12 +77,6 @@ export default {
 
 <style lang="scss" scoped>
 
-.container-sm {
-    width: 800px;
-    min-height: 600px;
-    margin: 0 auto;
-    border-color: 8px solid red;
-} 
 
 .student-text {
     font-size: 20px;
@@ -100,21 +94,9 @@ export default {
     color: #FF3A2D;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.col-3 {
-    flex-basis: calc((100% / 12) * 3 );
-}
-
 .card-students {
     padding: 15px;
-    // border: 1px solid lightgray;
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,7 +157,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 350px;
     margin-top:30px;
     padding: 20px;
     gap: 40px;
@@ -206,7 +188,6 @@ a:hover {
 .bg-red {
     color: #D74D52;
 }
-
 .bg-green {
     color:#3ADC79;
 }

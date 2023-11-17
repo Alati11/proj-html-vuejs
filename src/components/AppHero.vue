@@ -19,7 +19,7 @@ export default {
         <div class="row">
             <div class="hero-title">
                 <p class="hero-text">Professional Development For</p>
-                <p class="hero-text">Coach And Leaders</p>
+                <p class="hero-text">Coaches And Leaders</p>
             </div>
             <div>
                 <button class="hero-button"> <a href="#">Learn More</a></button>
@@ -67,6 +67,5 @@ export default {
 .hero-button:hover {
     color: white;
     background-color: #D74D52;
-
 }
 </style>

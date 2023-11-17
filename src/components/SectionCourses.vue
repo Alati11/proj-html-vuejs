@@ -29,39 +29,62 @@ export default {
                         <img src="public/img/bruce-mars-FWVMhUa_wbY-unsplash.jpg" alt="">
                     </figure>
                     <div class="card-coursers_text">
-                        <p>Free</p>
-                        <h3>Ui Animation using Sketch 3, Principle app, and Flinto</h3>
-                        <p>This online photography course will teach you how to take amazing images ans even sell...</p>
-                        <p>course by: Univeristy</p>
+                        <p class="free-text">Free</p>
+                        <h3 class="courses-title__text">Ui Animation using Sketch 3, Principle app, and Flinto</h3>
+                        <p class="text__sub">This online photography course will teach you how to take amazing images ans even sell...</p>
+                        <p class="courses-sign">Course by: Univeristy</p>
                     </div>
-                    
                 </div>
             </div>
             <div class="col-3">
                 <div class="card-courses">
                     <figure>
-                        <img src="public/img/bruce-mars-FWVMhUa_wbY-unsplash.jpg" alt="">
+                        <img class="img-pc" src="public/img/course-1-2.jpg" alt="">
                     </figure>
-                    <p>Free</p>
-                    <h3>Ui Animation using Sketch 3, Principle app, and Flinto</h3>
-                    <p>This online photography course will teach you how to take amazing images ans even sell...</p>
-                    <p>course by: Univeristy</p>
+                    <div class="card-coursers_text">
+                        <p class="free-text">Free</p>
+                        <h3 class="courses-title__text">The Ultimate Drawing Course - Beginner to Advanced</h3>
+                        <p class="text__sub">This online photography course will teach you how to take amazing images ans even sell...</p>
+                        <p class="courses-sign">Course by: Univeristy</p>
+                    </div>
                 </div>
             </div>
+
             <div class="col-3">
                 <div class="card-courses">
                     <figure>
-                        <img src="public/img/bruce-mars-FWVMhUa_wbY-unsplash.jpg" alt="">
+                        <img src="public/img/william-thomas-ny6tO4ItOEY-unsplash.jpg" alt="">
                     </figure>
-                    <p>Free</p>
-                    <h3 class="courses-title_text">Ui Animation using Sketch 3, Principle app, and Flinto</h3>
-                    <p class="courses-subtitle_text">This online photography course will teach you how to take amazing images ans even sell...</p>
-                    <p class="courses-sign">course by: Univeristy</p>
-                </div>  
+                    <div class="card-coursers_text">
+                        <p class="free-text">Free</p>
+                        <h3 class="courses-title__text">Ui Animation using Sketch 3, Principle app, and Flinto</h3>
+                        <p class="text__sub">This online photography course will teach you how to take amazing images ans even sell...</p>
+                        <p class="courses-sign">Course by: Univeristy</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </div> 
+
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-courses">
+                    <p class="courses-info ">"Academics was commited to my success from the moment
+                        I attended an Open House. With the support pf caring 
+                        <span>advisors, 
+                        professors, and staff
+                        </span> i was aable to thrive in courses, again recognition trough
+                        scholarships, and finish 
+                        <span>with confidence in my <span>@academics</span>abilities"</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
        
-    </div>
+       
+    
 
 </template>
 
@@ -69,7 +92,8 @@ export default {
 .coursers-text { 
     margin-left: 50px;
     margin-right: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 .card-courses {
     width: 350px;
@@ -80,7 +104,62 @@ export default {
 
 .card-coursers_text {
     padding: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.courses-title__text {
+    margin-top: 15px;
+    line-height: 1.6em;
+    font-weight:00;
+    font-size: 22px;
+}
+
+.text__sub {
+    line-height: 1.8em;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.courses-sign {
+    font-size: 13px;
+    color: #FF3A2D;
+    margin-top: 20px;
+}
+
+.img-pc {
+    height: 235px;
+}
+
+.free-text {
+    border-bottom: 2px solid #D74D5240;
+    width: 32px;
+    border-width: 10px; 
+}
+
+.bg-courses {
+    background-image: url('public/img/quote.png');
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 300px;
+    // position: relative;
+}
+
+.courses-info  {
+  font-size: 26px;
+  margin-top: -40px;
+  margin-left: -200px;
+  margin-right: 20px;  
+  padding: 40px;
+  line-height: 1.8em;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #192836;
+  
 
 }
+
+// .content-courses-info {
+//     width: 800px;
+//     margin: 0 auto;
+// }
 </style>
