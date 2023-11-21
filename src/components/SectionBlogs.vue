@@ -42,8 +42,8 @@ export default {
                         <img class="img-blog" src="public/img/news-2-2.jpg" alt="">
                     </figure>
                     <div class="card-coursers_text">
-                        <span>d </span> Admin <span>D </span>University
-                        <h3 class="text-blogs">Lewisham Live Mixtape</h3>
+                        <span><font-awesome-icon :icon="['far', 'user']" /></span> Admin <span>D </span>University
+                        <h3 class="text-blogs">Lewisham Live Mixtape celebrates borough's</h3>
                         <hr class="line-blogs">
                         <p>Read more ></p>
                     </div>
@@ -56,7 +56,7 @@ export default {
                     </figure>
                     <div class="card-coursers_text">
                         <span>d </span> Admin <span>D </span>University
-                        <h3 class="text-blogs">Peer pressure changes how teens tackle inequality</h3>
+                        <h3 class="text-blogs">Turner Prize winner's work to open Gold on film festival</h3>
                         <hr class="line-blogs">
                         <p>Read more ></p>
                     </div>

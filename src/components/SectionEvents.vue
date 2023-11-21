@@ -23,7 +23,7 @@ export default {
                     <div class="title-events">
                         <h2 class ="title__events-text">Upcoming Events</h2>
                     </div>
-                        <p class="events-text">Admission information session and student-led tours to campus visitors</p>
+                        <p class="events-text">Princeton offers admission information sessions and student-led tours to campus visitors</p>
                         <P class="button-more">Learn more ></P>
                         <p class="events-text">Admission information session and student-led tours to campus visitors</p>
                         <P class="button-more">Learn more ></P>

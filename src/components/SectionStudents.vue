@@ -15,7 +15,7 @@ export default {
 
 <template>
     <div class="container-sm">
-        <div>
+        <div class="container-text">
             <p class="student-text">Since 2000, weve been partnering with education leaders to
                 <span class="student-text-red">incrause equity and achievement </span>for all student.
             </p>
@@ -79,11 +79,14 @@ export default {
 
 
 .student-text {
-    font-size: 20px;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.8em;
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;  
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -166,9 +169,7 @@ a:hover {
 }
 
 .counter{
-    // color: #3ADC79;
     font-weight:800;
-    // width: 150px;
     height: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
@@ -187,5 +188,11 @@ a:hover {
 }
 .bg-green {
     color:#3ADC79;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    width: 800px;
 }
 </style>

@@ -57,7 +57,7 @@ export default {
                     </figure>
                     <div class="card-coursers_text">
                         <p class="free-text">Free</p>
-                        <h3 class="courses-title__text">Ui Animation using Sketch 3, Principle app, and Flinto</h3>
+                        <h3 class="courses-title__text">Your Complete Guide to Photography</h3>
                         <p class="text__sub">This online photography course will teach you how to take amazing images ans even sell...</p>
                         <p class="courses-sign">Course by: Univeristy</p>
                     </div>
